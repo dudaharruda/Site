@@ -1,0 +1,63 @@
+html,body,main {
+    border: 0;
+    padding: 0px;
+    margin: 0;
+}
+.form-entrar {
+    margin-left: 8%;
+}
+.header-logo {
+        width: 10%;
+        height: 200px;
+        margin-top: -60px;
+        background-color: white;
+        border-radius: 30px;
+}
+.header-logo img {
+        width: 100%;
+        margin-top: 80px;
+        border-radius: 30px;
+}
+.titulo{
+    color: #7095db ;    
+    }
+.input-login input{
+    width: 30%;
+    height: 50px;
+    border-radius: 4.5px;
+    margin-bottom: 4%;
+    color: #709CEF ;  
+}
+.input-login input::placeholder{
+    padding: 0px 40px;
+    color: #709CEF ;  
+}
+
+.acesse-sua-conta {
+    margin-top: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.entrar-login {
+    margin-top:4%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #709CEF ;  
+}
+.botao-cadastrar{
+    width: 50%;
+    height: 50%;
+    font-size: 20px; 
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    margin-top: 32px;
+}
+.botao-entrar {
+   background-color: #709CEF;
+    width: 55%;
+    height: 60%;
+    border-radius: 10px;
+    margin-right: 4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,188 @@
+body,main,html,header,label,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none; 
+ }
+ body{
+    background-color:white;
+ }
+ .principal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .imagem-lateral{
+    width: 50%;
+    height: 800px;
+    overflow: hidden;
+ }
+.image{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;   
+
+} 
+.form {
+    width: 50%;
+    height:800px;
+}
+.form form{
+    margin-top:200px;
+    width: 100%;
+    
+}
+.form .input {
+    width: 60%;
+    height: 60px;
+    border-radius: 6px;
+    margin: 15px auto;
+}
+.input input {
+    width: 100%;
+    border-radius: 6px;
+    height: 45px;
+}
+.input-medio{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 60%;
+    margin: 15px auto;
+ }
+ .input-medio .input {
+    width: 45%;
+    margin: 0;
+ }
+.input-botao{
+   width: 25% !important;
+   background-color: white;
+}
+.top {
+    width: 100%;
+    height: 5px;
+}
+.top-1{    
+    position:absolute;
+    width: 100%;
+    height: 150px;
+    background-image: radial-gradient(rgba(25, 25, 25, 0.45), rgba(0, 0, 0, 0.75)), url("pngwing.com\ \(10\)\ \(1\).png");
+    background-size: cover;
+}
+.linha-cima{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 2px;
+}
+.linha-baixo{
+    margin-top:0%;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 2px;
+}
+.marrom{
+    width: 100%;
+    height: 70px;
+
+}
+.conteudo-funcionamento{
+    width: 100%;
+}
+.Item {
+    margin-top: 9%;
+    margin-left: 23%;
+    width: 800px;
+    height: 260px;
+    background-color:rgb(245, 242, 242);
+    border-radius: 0.8rem;
+    position: relative;
+}
+.horario{
+    border-radius: 10px;
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    top: 13%;
+    left: 18%;
+    margin: -25px 00 -25px;
+    margin: 0 auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.horario h2{
+    font-size: 15px;
+}
+.horario h{
+    font-size: 15px;
+}
+.header-top {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 4%;
+}
+.header-logo {
+    width: 10%;
+    height: 200px;
+    margin-top: -60px;
+    background-color: white;
+    border-radius: 25px;
+}
+.header-logo img {
+    width: 100%;
+    margin-top: 80px;
+}
+.header-menu {
+    width: 70%;
+}
+.header-menu>ul>li {
+    display: inline-block;
+    margin: 0 1rem;
+    margin-top: 1%;
+    padding: 2%;
+    margin-right:8% ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header-alerta>ul>li {
+    display: inline-block;
+    margin: 0 0.3rem;
+}
+.header-menu>ul>li a,
+.header-alerta>ul>li {
+    color: white;
+}
+.header-alerta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%; 
+    height: 70%;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 15px;
+}
+.botao-cadastrar{
+    width: 50%;
+    height: 50%;
+    font-size: 20px; 
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botao-entrar{
+    width: 55%;
+    height: 60%;
+    border-radius: 10px;
+    margin-right: 4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.botao-entrar a{
+    color:white;
+}

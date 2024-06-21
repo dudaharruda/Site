@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/cadastro.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <main class="principal"> 
+        <div class="header-logo">
+            <img src="assets/Logo.png" alt="logo">
+        </div>
+        <Header>                      
+               <div class="botao-entrar">
+                    <a href="entrar.html">ENTRAR</a>
+                </div>
+        </Header>        
+        <section class="form">
+            <form action="bem-vindo.html">
+                <div class="input">    
+                    <label for="email"><input type="email" id="email" placeholder="E-mail*"></label>                    
+                </div>
+                <div class="input-medio">
+                    <div class="input">
+                        <label for="Nome"><input type="text" required id="Nome" placeholder="Nome*"></label>
+                    </div>
+                    <div class="input">
+                        <label for="Sobrenome"><input type="text" required id="Sobrenome" placeholder="Sobrenome*"></label>
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="CPF"><input type="text" id="CPF" required placeholder="CPF*"></label>  
+                </div>                
+                <div class="input">
+                    <label for="Celular"><input type="text" id="Celular" required placeholder="Celular*"></label>                      
+                </div>
+                <div class="input">
+                    <label for="Senha"><input type="password" id="Senha" required placeholder="Senha*" maxlength="08"></label>  
+                </div>
+               <div class="input">
+                    <input type="submit" value="Cadastrar" class="input-botao">
+                </div>
+            </form>
+        </section>      
+    </main>
